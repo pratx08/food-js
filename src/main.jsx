@@ -1,13 +1,9 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import AdminDashboard from './components/AdminDashboard'
-import StudentDashboard from './components/StudentDashboard'
-
-// Change this flag to switch between admin/student
-const isAdmin = true;
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <>
-    {isAdmin ? <AdminDashboard /> : <StudentDashboard />}
-  </>
-)
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
