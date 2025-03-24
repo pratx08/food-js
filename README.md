@@ -3,13 +3,8 @@
 ## 📦 Backend (FastAPI)
 
 ```bash
-cd food-backend-main
-pip install uvicorn
-python -m venv venv
-source venv/Scripts/activate
-pip install "fastapi[all]"
-pip install pandas
-pip install sklearn
-uvicorn main:app --reload
+cd food-js-menu
+npm install
+npm run dev
 
 Note: Run the backend project before running the js project,
