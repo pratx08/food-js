@@ -1,0 +1,147 @@
+.dashboard-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  
+  /* ===== Card Sections ===== */
+  .card-section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  select {
+    padding: 6px 10px;
+    margin-bottom: 15px;
+  }
+  
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+  }
+  
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+  }
+  
+  .card {
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.03);
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* ===== Multi-column raw materials ===== */
+  .raw-materials-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 8px 20px;
+  }
+  
+  .raw-materials-list p {
+    margin: 4px 0;
+  }
+  
+  /* ===== Weekly Menu Section ===== */
+  .weekly-menu-section {
+    margin-top: 30px;
+  }
+  
+  .weekly-menu-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .weekly-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .day-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.05);
+    font-size: 13px;
+  }
+  
+  .day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f8fc;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  
+  .day-header:hover {
+    background: #e8eef6;
+  }
+  
+  .arrow {
+    transition: all 0.3s;
+  }
+  
+  .arrow.rotate {
+    transform: rotate(90deg);
+  }
+  
+  .meal-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    padding: 6px 10px;
+    background: #fafafa;
+  }
+  
+  .meal-block {
+    background: #f1f5f9;
+    padding: 6px;
+    border-radius: 4px;
+  }
+  
+  .meal-block h5 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .meal-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11.5px;
+    margin-bottom: 3px;
+  }
+  
+  .pill {
+    background: #4d91ff;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-size: 11px;
+  }
+  

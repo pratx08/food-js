@@ -1,0 +1,73 @@
+# =========================
+# React / Node.js frontend
+# =========================
+node_modules/
+build/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.eslintcache
+
+# =========================
+# Python backend (AI / API)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+ENV/
+.env
+*.log
+instance/
+.mypy_cache/
+*.sqlite3
+
+# =========================
+# AI/ML/Deep Learning files
+# =========================
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.tflite
+*.pb
+*.onnx
+*.joblib
+*.pkl
+runs/             # for TensorBoard logs
+checkpoints/      # if you store checkpoints here
+models/           # if models directory has trained weights
+
+# =========================
+# IDEs & OS specific
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Optional: AI design assets
+# =========================
+*.ai
+*.psd
+*.sketch
+*.xd
+*.fig
+
+# =========================
+# Optional: Docker / CI/CD
+# =========================
+docker-compose.override.yml
+.dockerignore
+*.dockerfile
